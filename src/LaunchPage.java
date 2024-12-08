@@ -55,6 +55,7 @@ public class LaunchPage implements ActionListener { //implements ActionListener 
         } else if (e.getSource().equals(commercialButton)) {
             System.out.println("commercial");
             loginStorage.setCommercial(true);
+            Food food = new Food();
 
         } else if (e.getSource().equals(financialButton)) {
             System.out.println("financial");
